@@ -20,12 +20,12 @@ def making_hash(crypto_name, crypto_value)
     value_array << value.text
   end
 
- crypto_wip = Hash[name_array.zip value_array]
-
+  crypto_wip = Hash[name_array.zip value_array]
   crypto_wip.each do |name , value|
-  $crypto_hash = {name => value.to_f}
+   puts $crypto_hash = {name => value.to_f}
   end
 
+  return $crypto_hash
 end
 
 def perform(crypto_name, crypto_value)
