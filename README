@@ -1,0 +1,9 @@
+This is a scrapper project based on Nokogiri, Open URI, xPath & CSS Selector developed in Ruby: 
+
+1. Crypto trends
+-> Scrapping the website http://coinmarketcap.com (Crypto's symbol & value)
+
+- French cityhall's email address:
+-> Scrapping http://annuaire-des-mairies.com/: 
+ - First fetching cityhalls unique URL
+ Then looping on fetched URL to scrap email address
